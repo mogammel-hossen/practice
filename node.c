@@ -15,7 +15,6 @@ struct Node * creatnode (int value)
     n->link = NULL;
     return n;
 }
-
 void incert (struct Node *head,struct Node * p)
 {
     while(head != NULL)
